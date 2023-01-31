@@ -1,0 +1,149 @@
+:root{
+    --primary-col: #f0f2f5;
+    --card-col: white;
+    --login-col: #1877f2;
+    --signup-col: #36a420;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.box{
+    height: 92vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+
+.container{
+    height: 536px;
+    width: 980px;
+    display: flex;
+    flex-direction: row;
+}
+
+.fb_logo{
+    height: 106px;
+    width: 301.1067px;
+    align-self: flex-end;
+}
+
+.left-container{
+    height: 536px;
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+}
+
+.txt-container{
+    height: 76px;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 28px;
+}
+
+.logo{
+    display: flex;
+    height: 181.65px;
+    width: 548px;
+}
+
+.txt{
+    width: 368px;
+    font-family:Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    color:  #1c1e21;
+    line-height: 28px; 
+}
+
+.right-container{
+    height: 496px;
+    width: 396px;
+}
+
+.login-card{
+    margin-top: 51px;
+    display: flex;
+    justify-content: center;
+    height: 348.417px;
+    width: inherit;
+    background-color: var(--card-color);
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .1);
+    padding: 14px 16px;
+}
+
+input[type="text"],input[type="password"],.common{
+    box-sizing: border-box;
+    height: 51.6px;
+    width: 364px;
+    border-radius: 6px;
+    border: 2px solid #dddfe2;
+    color:#1d2129;
+    padding-left: 15px;
+    font-size: 1em;
+    opacity: 0.5;
+    margin: 6px 0;
+}
+
+input[type="submit"]{
+    background-color: var(--login-col);
+    opacity:1;
+    border:none;
+    color: white;
+    font-weight:bold;
+    font-size: 17px;
+}
+
+.reset-opt{
+    height: 50px;
+    width: inherit;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-decoration: none;
+    border-bottom:1px solid #dddfe2;
+}
+
+.signup{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-btn{
+    height: 51.6px;
+    width: 200px;
+    background-color:var(--signup-col);
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+.below-card{
+    margin-top: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.createpg{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+.createpg:hover{
+    text-decoration: underline;
+}

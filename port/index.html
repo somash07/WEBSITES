@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Dancing+Script&family=Gluten:wght@100;600;900&family=Great+Vibes&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <title>try1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar{
+            height: 10vh;
+            background-color: black;
+            text-align: right;
+        }
+        .navbar ul li a{
+            color:lavender;
+            font-family: bangers,cursive;
+            text-decoration: none;
+            position: relative;
+        }
+        .navbar ul li{
+           display: inline-block;
+           font-size:2em;
+           padding: 3vw;
+           position: relative;
+           right: 10vw; 
+           font-size: 21px;
+           bottom: 10px;
+        }
+        .navbar li a::after{
+            content:'';
+            position: absolute;
+            display: block;
+            height: 0.2em;
+            width: 0%;
+            background-color:whitesmoke;
+            bottom: -0.4em;
+            transition: all ease-in-out 250ms;
+        }
+        .navbar li a:hover::after{
+            width: 120%;
+        }
+        .pp img{
+            margin:4px;
+        }
+        .aboutme{
+            display: inline-block;
+            width: 40%;
+            height: 40vh;
+            position: relative;
+            bottom: 20vh;
+            left: 4vh;
+            border-radius: 30px;
+            text-align: center;
+            font-family: 'Great Vibes',cursive;
+            font-size: 20px;
+            color: black;
+        }
+        .pp{
+            display: inline-block;
+        }
+        .last{
+            font-family: 'Great Vibes',cursive;
+            text-align: right;
+            padding: 9px;
+            font-weight: bold;
+            font-size:20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+         <div class="navbar">
+             <ul>
+                 <li><a href="#homie">Home</a></li>
+                 <li><a href="/about.html" target="_self">About</a></li>
+                 <li><a href="/contact.html">Contact</a></li>
+             </ul>
+         </div>
+    </header>
+    <div class="pp">
+        <img src="background.jpeg" height="500px">
+    </div>
+    <div class="aboutme" id="homie">
+        <h2>Hello!</h2>
+        <br>
+        <hr>
+        <br>
+        <p>I am learning web development.This is my first website.<br>
+        Found the website crappy??<br>
+    Sorry about that i will keep updating..</p>
+    </div>
+    <hr>
+    <hr>
+    <div class="last">
+        <br>
+        <p>The greatest glory in living lies not in never falling, but in rising every time we fall.
+        <br> -Nelson Mandela</p>
+    </div>
+
+</body>
+
+</html>

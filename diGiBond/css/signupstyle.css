@@ -1,0 +1,76 @@
+:root{
+    --primary-color: #CCC5B9;
+    --secondary-color: #5E503F;
+    --tertiary-color: #C6AC8F;
+} 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* upper part */
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--primary-color);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+
+.logo h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 4em;
+}
+
+/* body part */
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+input[type="text"],
+input[type="password"],
+.common {
+    text-align: center;
+    box-sizing: border-box;
+    height: 51.6px;
+    width: 364px;
+    border-radius: 6px;
+    border: 2px solid var(--secondary-color);
+    color: #1d2129;
+    padding-left: 15px;
+    font-size: 1em;
+    margin: 6px 0;
+}
+
+.btn {
+    background-color: var(--secondary-color);
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: var(--tertiary-color);
+    border: 1px solid var(--secondary-color);
+
+}
+
+.confirmation {
+    text-align: center;
+    line-height: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+

@@ -1,0 +1,149 @@
+
+:root{
+    --card-col: white;
+    --primary-color: #CCC5B9;
+    --secondary-color: #5E503F;
+    --tertiary-color: #C6AC8F;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+.nav h2{
+    font-size: 3em;
+    font-family: 'Anton';
+    width: 35vw;
+    padding:5vw;
+}
+.nav h2:hover{
+    color: var(--secondary-color);
+}
+.wlc_msg h2{
+    color: black;
+    background-color: white;
+}
+.anchor_remove{
+    text-decoration: none;
+    background-color: inherit;
+    color: inherit;
+}
+.search_box{
+    background-color: white;
+    width:300px;
+    height:40px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .1);
+    padding:4px;
+    font-size:14;
+}
+.navigation{
+    margin: 5vw;
+}
+input[type="submit"]{
+    height: 40px;
+    width: 85px;
+    background-color: var(--secondary-color);
+    opacity:0.8;
+    border:none;
+    color: white;
+    font-weight:bold;
+    font-size: 17px;
+    border-radius: 6px;
+}
+input[type="submit"]:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+#profile_pic{
+    width: 150px;
+    margin-top: -200px;
+    border-radius: 50%;
+    border: solid 2px white;
+}
+.menu_buttons{
+    background-color: white;
+    width:100px;
+    display:inline-block;
+    margin:2px;
+    color: black;
+}
+.status{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 60vw;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+textarea{
+    width:100%;
+    border:none;
+    font-family:tahoma;
+    font-size:14px;
+    height:10vh;
+    width: 40vw;
+    background-color: white;
+}
+input[type="submit"]{
+    background-color: #405d9b;
+    border:none;
+    border-radius:2px;
+    /* padding:4px; */
+    font-size: 14px;
+    color:white;
+    margin-left: 1vw;
+}
+#post_bar{
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+}
+#post{
+    padding: 4px;
+    font-size: 14px;
+    display:flex;
+    border:2px thin grey;
+}
+.logout{
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    height: 51.6px;
+    width: 200px;
+    background-color:var(--secondary-color);
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.info-table{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+tr,th{
+    padding: 40px;
+}
+table{
+    width: 80vw;
+}

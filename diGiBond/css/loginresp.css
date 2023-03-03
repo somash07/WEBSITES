@@ -1,0 +1,61 @@
+:root{
+    --primary-col: #f0f2f5;
+    --card-col: white;
+    --login-col: #1877f2;
+    --signup-col: #36a420;
+}
+
+@media screen and (max-width: 984px){ 
+
+    .box{
+        display: flex;
+        align-items: flex-start;
+        background-color: var(--primary-color);
+    }
+
+    .container{
+        height: 90vh;
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .left-container{
+        width: inherit;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo{
+        width: inherit;
+        display: flex;
+        justify-content: center;
+    }
+
+    .txt-container{
+        height: 76px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .login-card{
+        width: 396px;
+        margin-top: 2vh;
+        align-self:center;
+    }
+    
+    .below-card{
+        margin-top: 3vh;
+       
+    }
+    .right-container{
+        height: 430px;
+        width: inherit;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+}
